@@ -1,0 +1,113 @@
+@media screen and (max-width:455px) {
+
+    /* top left side css */
+
+    #plane-icon {
+        width: 15% !important;
+        margin-left: 18% !important;
+        margin-bottom: -4% !important;
+    }
+
+    #chilli-img {
+        width: 20% !important;
+        margin-left: 45% !important;
+        margin-top: -15% !important;
+    }
+
+    #left h1 {
+        font-size: 32px !important;
+    }
+
+    #shopping-cart button {
+        border: none;
+    }
+
+    #cart-icon {
+        margin: 0 0 0 0px !important;
+        padding: 5px !important;
+        width: 10% !important;
+    }
+
+    /* top right side css */
+
+    #right {
+        margin-bottom: 10% !important;
+    }
+
+    #chips-taste {
+        width: 12% !important;
+    }
+
+    #side-chilli {
+        width: 15% !important;
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width:700px) {
+
+    /* top left side css */
+
+    #plane-icon {
+        width: 15% !important;
+        margin-left: 15% !important;
+    }
+
+    #chilli-img {
+        margin-left: 38% !important;
+        margin-top: -18% !important;
+    }
+
+    /* top right side css */
+
+    #big-chips {
+        width: 75% !important;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    /* top left side css */
+
+    #top {
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-around !important;
+        margin-bottom: -135px;
+    }
+
+    #left {
+        margin: -170px 0 0 0 !important;
+    }
+
+    #plane-icon {
+        width: 20% !important;
+        margin-left: 25% !important;
+        margin-bottom: -8% !important;
+    }
+
+    #chilli-img {
+        width: 28% !important;
+        margin-left: 68% !important;
+        margin-top: -22% !important;
+    }
+
+    #left h1 {
+        font-size: 70px !important;
+    }
+
+    #shopping-cart {
+        flex-direction: row !important;
+        justify-content: space-evenly !important;
+    }
+
+    #cart-value {
+        justify-content: space-evenly !important;
+        gap: 0px !important
+    }
+
+    /* top right side css */
+
+    #big-chips {
+        width: 72% !important;
+    }
+}

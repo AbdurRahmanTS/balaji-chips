@@ -1,0 +1,36 @@
+@media screen and (max-width:455px) {
+    #search input {
+        padding: 0% !important;
+        font-size: 65% !important;
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width:700px) {
+    #search input {
+        padding: 3% !important;
+        font-size: 180% !important;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    #navbar {
+        flex-direction: row !important;
+        justify-content: space-around !important;
+    }
+
+    #navbar img {
+        width: 15% !important;
+    }
+
+    #search {
+        width: 30% !important;
+    }
+
+    #search img {
+        width: 10% !important;
+    }
+
+    #search input {
+        font-size: 85% !important;
+    }
+}
