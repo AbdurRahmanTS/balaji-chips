@@ -17,17 +17,17 @@ document.querySelector("#crunchex-chips").addEventListener("click", () => ordere
 
 function orderedChips(chips) {
     if(chips === "flaming") {
-        bigImage.src= "../img/big_chips_1.png";
+        bigImage.src= "img/big_chips_1.png";
         bigImage.alt="Flaming Hot Chips Image";
     }
 
     if(chips === "tomato") {
-        bigImage.src= "../img/big_chips_2.png";
+        bigImage.src= "img/big_chips_2.png";
         bigImage.alt="Tomato Twist Chips Image";
     }
 
     if(chips === "crunchex") {
-        bigImage.src= "../img/big_chips_3.png";
+        bigImage.src= "img/big_chips_3.png";
         bigImage.alt="Crunchex Chilli Chips Image";
     }
     
