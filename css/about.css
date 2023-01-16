@@ -1,0 +1,17 @@
+#about {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#about h1 {
+    font-weight: 800;
+    margin: 50px 0;
+}
+
+#about p {
+    text-align: justify;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 50px;
+}

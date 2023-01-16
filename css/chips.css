@@ -1,0 +1,12 @@
+@import url("responsive/responsive-chips.css");
+
+#chips-section {
+    width: 90%;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: repeating-conic-gradient(at 0% 50%, #23675A 0deg 10deg, #234E44 10deg 20deg);
+    border-radius: 50px 50px 0px 0px;
+}

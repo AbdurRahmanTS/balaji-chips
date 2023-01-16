@@ -1,0 +1,25 @@
+@media screen and (max-width:455px) {
+    .chips {
+        flex-direction: column;
+    }
+    
+    .chips img {
+        margin-right: 0% !important;
+        margin-bottom: -12%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    #chips-section {
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        justify-content: space-around !important;
+        background-image: repeating-conic-gradient(at 50% 0%, #23675A 0deg 10deg, #234E44 10deg 20deg) !important;
+    }
+}
+
+@media screen and (max-width:1320px) and (min-width:1024px) {
+    .chips-card h3 {
+        font-size: 15px !important;
+    }
+}
